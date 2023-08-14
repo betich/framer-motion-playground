@@ -40,34 +40,43 @@ export default function Variants() {
       </button>
 
       <motion.div
-        className="h-24 w-24 rounded-lg bg-gradient-to-r from-blue-100 to-pink-200"
+        className="h-24 w-24 rounded-lg"
         variants={{
           "1": {
             rotate: 0,
+            backgroundColor: "#dbeafe",
           },
           "2": {
             rotate: 45,
+            backgroundColor: "#c7d2fe",
           },
           "3": {
             rotate: 90,
+            backgroundColor: "#a5b4fc",
           },
           "4": {
             rotate: 135,
+            backgroundColor: "rgb(252 231 243)",
           },
           "5": {
             rotate: 180,
+            backgroundColor: "#fbb6ce",
           },
           "6": {
             rotate: 225,
+            backgroundColor: "#f687b3",
           },
           "7": {
             rotate: 270,
+            backgroundColor: "#a5b4fc",
           },
           "8": {
             rotate: 315,
+            backgroundColor: "#c7d2fe",
           },
           "9": {
             rotate: 360,
+            backgroundColor: "#dbeafe",
           },
         }}
         initial={"1"}
